@@ -8,10 +8,10 @@
 		<version>4.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ericyao</groupId>
-	<artifactId>finance-api</artifactId>
+	<groupId>com.eryao</groupId>
+	<artifactId>financeapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>finance-api</name>
+	<name/>
 	<description/>
 	<url/>
 	<licenses>
