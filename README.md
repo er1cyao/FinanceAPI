@@ -1,16 +1,9 @@
 # Personal Finance API
 
-A REST API built with Java and Spring Boot for tracking personal finances.
+## Overview
+A REST API built with Java and Spring Boot for tracking personal finances. Tool for providing tracking and visibility for spending habits.
 
-## Tech Stack
-
-- Java 21
-- Spring Boot
-- PostgreSQL
-- Maven
-
-## Planned Features
-
+## Features
 - User management
 - Transactions
 - Categories
@@ -19,7 +12,6 @@ A REST API built with Java and Spring Boot for tracking personal finances.
 - JWT authentication
 - Docker deployment
 
-## Functionality
 
 This API should be able to allow users to create an account that stores:
 - Username
@@ -35,24 +27,12 @@ Users will be able to:
 - Get forecasted spending per month
 - Get forecasted spending per year
 
-## Backend
+## Tech Stack
+- Java 21
+- Spring Boot
+- PostgreSQL
+- Maven
 
-The data will include:
-User
-- Username
-- Password
-- Email Address
-
-Transaction
-- Transaction category
-- Product name
-- Price
-- Time of transaction
-- Location of transaction
-
-Transaction Category
-- Rent
-- Groceries
-- Subscriptions
-- Leisure
-- Gas
+## Future Improvements
+- Forecasted budget
+- Predicted budget
