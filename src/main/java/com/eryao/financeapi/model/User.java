@@ -4,13 +4,13 @@ import java.time.LocalDateTime;
 
 public class User {
     
-    private int id;
+    private long id;
     private String username;
     private String passwordHash;
     private String email;
     private LocalDateTime createdAt;
 
-    public User(int id, String username, String passwordHash, String email, LocalDateTime createdAt){
+    public User(long id, String username, String passwordHash, String email, LocalDateTime createdAt){
         this.id = id;
         this.username = username;
         this.passwordHash = passwordHash;
@@ -18,12 +18,8 @@ public class User {
         this.createdAt = createdAt;
     }
 
-    public int getId(){
+    public long getId(){
         return id;
-    }
-
-    public void setId(int id){
-        this.id = id;
     }
 
     public String getUsername(){
@@ -53,8 +49,6 @@ public class User {
     public LocalDateTime getCreatedAt(){
         return createdAt;
     }
-    public void setCreatedAt(LocalDateTime createdAt){
-        this.createdAt = createdAt;
-    }
+
 
 }

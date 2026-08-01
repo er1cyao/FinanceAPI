@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 public class Transaction {
 
-    private int id;
+    private long id;
     private BigDecimal amount;
 
     String description;
@@ -18,7 +18,7 @@ public class Transaction {
     User user;
 
     
-    public Transaction(int id, String description, BigDecimal amount, LocalDate date, String merchant, String location, Category category, User user){
+    public Transaction(long id, String description, BigDecimal amount, LocalDate date, String merchant, String location, Category category, User user){
         this.id = id;
         this.description = description;
         this.amount = amount;
@@ -30,12 +30,8 @@ public class Transaction {
 
     }
 
-    public int getId(){
+    public long getId(){
         return id;
-    }
-
-    public void setId(int id){
-        this.id = id;
     }
 
     public String getDescription(){
@@ -58,9 +54,6 @@ public class Transaction {
         return date;
     }
 
-    public void setDate(LocalDate date){
-        this.date = date;
-    }
 
     public String getMerchant(){
         return merchant;
